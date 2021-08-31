@@ -32,7 +32,7 @@ function deleteCookie(){
 }
 
 
-function lisCookie(){
+function listCookie(){
     let arr = document.cookie.split(';');
     let len = arr.length;
     console.log(arr)
